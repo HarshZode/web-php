@@ -12,7 +12,7 @@ services:
     networks:
       - lamp-docker
     deploy:
-      replicas: 1
+      replicas: 3
       restart_policy:
         condition: on-failure
 
@@ -30,7 +30,7 @@ services:
     networks:
       - lamp-docker
     deploy:
-      replicas: 1
+      replicas: 3
       restart_policy:
         condition: on-failure
 
@@ -46,7 +46,7 @@ services:
     networks:
       - lamp-docker
     deploy:
-      replicas: 1
+      replicas: 3
       restart_policy:
         condition: on-failure
 
