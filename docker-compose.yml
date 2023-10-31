@@ -21,7 +21,7 @@ services:
     volumes:
       - "./:/var/www/html"
     ports:
-      - 80:80
+      - 81:80
     networks:
       - lamp-docker
   phpmyadmin:
@@ -29,7 +29,7 @@ services:
       - db
     image: phpmyadmin/phpmyadmin
     ports:
-      - 81:80
+      - 80:80
     environment:
       - PMA_HOST=db
       - PMA_PORT=3306
