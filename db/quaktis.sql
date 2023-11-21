@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `info_tbl` (
 --
 
 INSERT INTO `info_tbl` (`infoID`, `firstName`, `lastName`) VALUES
-(11, 'kumar', 'Deepak');
+(11, 'Harsh', 'Zode');
 
 -- --------------------------------------------------------
 
